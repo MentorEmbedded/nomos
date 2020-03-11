@@ -1,0 +1,7 @@
+*.HISTOGRAM
+*.OK
+*.OTHER
+*.o
+_*
+encode
+nomos

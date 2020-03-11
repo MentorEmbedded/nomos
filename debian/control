@@ -1,0 +1,33 @@
+Source: nomos
+Section: devel
+Priority: optional
+Maintainer: Cedric Hombourger <cedric_hombourger@mentor.com>
+Build-Depends: debhelper (>=9), libglib2.0-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/MentorEmbedded/nomos
+Vcs-Git: https://github.com/MentorEmbedded/nomos.git
+Vcs-Browser: https://github.com/MentorEmbedded/nomos.git
+
+Package: nomos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: nomos license scanner
+ Nomos is one of FOSSology’s license scanners. Nomos does license identification
+ using short phrases (regular expressions) and heuristics, e.g. a phrase must be
+ found in (or out of) proximity to another phrase or phrases. This helps to
+ eliminate false positives.
+ .
+ Nomos uses stages of license recognition: First it uses keywords to identify
+ license relevant statements. Then, it uses a hierarchical structure of regular
+ expressions in order to identify particular licenses.
+ .
+ If the recognition is not complete, Nomos will either return
+ ‘UnclassifedLicense’ or a category of licenses, such as ‘BSD’ or ‘GPL’  not
+ enough to identify unambiguously a license, but as much as possible to support
+ the user to determine the license situation. What happened in this case is that
+ in the hierarchy of matching phrases, the found text “cannot do deep enough” to
+ determine a particular license. Note that ‘BSD’ or ‘GPL’ require to determine
+ the exact license, such as ‘BSD 3 Clause’ or ‘GPL 2.0’.
+ .
+ Nomos identifies a “style” type of license if it has similarities with a known
+ license type enables Nomos to recognize also new or unknown licenses.

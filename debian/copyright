@@ -1,0 +1,111 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nomos
+Source: https://github.com/MentorEmbedded/nomos
+
+Files:     debian/changelog
+           debian/compat
+           debian/control
+           debian/copyright
+           debian/rules
+           debian/source/format
+Copyright: 2020 Mentor Graphics, a Siemens business
+License:   GPL-2.0
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ version 2 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     GENSEARCHDATA
+           doctorBuffer_utils.c
+           doctorBuffer_utils.h
+           json_writer.c
+           json_writer.h
+           licenses.h
+           list.h
+           nomos_gap.c
+           nomos_gap.h
+           nomos_regex.c
+           nomos_regex.h
+           nomos_utils.c
+           nomos_utils.h
+           parse.h
+           process.c
+           process.h
+           standalone.c
+           standalone.h
+           util.h
+Copyright: 2006-2014 Hewlett-Packard Development Company, L.P.
+           2013-2019 Siemens AG
+License:   GPL-2.0
+
+Files:     CHECKSTR
+           GenCodeCopyright
+           PRECHECK
+Copyright: 2006-2009 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     DMalloc.3x
+           Makefile
+           STRINGS.in
+Copyright: 2006-2015 Hewlett-Packard Development Company, L.P.
+           2017-2019 Bittium Wireless Ltd.
+License:   GPL-2.0
+
+Files:     nomos.c
+Copyright: 2006-2015 Hewlett-Packard Development Company, L.P.
+           2014-2018 Siemens AG
+License:   GPL-2.0
+
+Files:     licenses.c
+Copyright: 2006-2013 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     DMalloc.c
+Copyright: 2007-2011 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     list.c
+Copyright: 2006-2013 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     parse.c
+Copyright: 2006-2015 Hewlett-Packard Development Company, L.P.
+           2017-2019 Bittium Wireless Ltd.
+License:   GPL-2.0
+
+Files:     nomos.h
+Copyright: 2006-2014 Hewlett-Packard Development Company, L.P.
+           2014 Siemens AG
+License:   GPL-2.0
+
+Files:     util.c
+Copyright: 2006-2009 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     encode.c
+Copyright: 2006-2011 Hewlett-Packard Development Company, L.P.
+License:   GPL-2.0
+
+Files:     debian/nomos/usr/share/doc/nomos/copyright
+Copyright: __NO_COPYRIGHT__ in: debian/nomos/usr/share/doc/nomos/copyright
+License:   GPL-2.0+
+
+Files:     Makefile.conf
+Copyright: 2009-2014 Hewlett-Packard Development Company, L.P.
+           2015-2018 Siemens AG
+License:   GPL-2.0
+
+Files:     transition.notes
+Copyright: __NO_COPYRIGHT__ in: transition.notes
+License:   GPL-2.0

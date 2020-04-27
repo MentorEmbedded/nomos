@@ -1,3 +1,9 @@
+nomos (3.7.0-2) buster; urgency=medium
+
+  * Add libjson-c-dev to Build-Depends
+
+ -- Cedric Hombourger <cedric_hombourger@mentor.com>  Mon, 27 Apr 2020 11:37:05 +0100
+
 nomos (3.7.0-1) unstable; urgency=medium
 
   * Initial release.

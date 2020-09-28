@@ -1,3 +1,9 @@
+nomos (3.7.0-3) UNRELEASED; urgency=medium
+
+  * Fix multiple definition errors observed when building on bullseye
+
+ -- Cedric Hombourger <cedric_hombourger@mentor.com>  Mon, 28 Sep 2020 18:59:45 +0100
+
 nomos (3.7.0-2) buster; urgency=medium
 
   * Add libjson-c-dev to Build-Depends

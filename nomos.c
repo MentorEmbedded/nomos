@@ -33,6 +33,12 @@
 #include "nomos.h"
 #include "nomos_utils.h"
 
+char debugStr[myBUFSIZ];
+char dbErrString[myBUFSIZ];
+char saveLics[myBUFSIZ];
+
+size_t hashEntries;
+
 extern licText_t licText[]; /* Defined in _autodata.c */
 struct globals gl;
 struct curScan cur;

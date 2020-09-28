@@ -26,6 +26,9 @@
 #include "nomos_regex.h"
 #include "nomos_gap.h"
 #include "nomos_utils.h"
+
+regex_t regc[NFOOTPRINTS];
+
 /**
  * \file
  * \brief search using regex functions
